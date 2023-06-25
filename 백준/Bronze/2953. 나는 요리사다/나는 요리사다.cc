@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    
+
+    int number=0;
+    int max=0;
+    int sum=0;
+    for(int i=0;i<5;i++){
+        sum=0;
+        int a,b,c,d=0;
+        cin>>a>>b>>c>>d;
+        sum+=a+b+c+d;
+        if(sum>max){
+            max=sum;
+            number=i;
+        }
+    }
+    cout<<number+1<<" "<<max;
+
+
+
+    }
+
